@@ -1,0 +1,32 @@
+{
+  "name": "under-the-hood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/mongoose": "^5.0.18",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "mongoose": "^5.1.7",
+    "nodemon": "^1.17.5"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "delay": 1000
+  },
+  "devDependencies": {},
+  "scripts": {
+    "graphql:start": "nodemon graphql --watch graphql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewkeil/under-the-hood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewkeil/under-the-hood/issues"
+  },
+  "homepage": "https://github.com/matthewkeil/under-the-hood#readme"
+}
